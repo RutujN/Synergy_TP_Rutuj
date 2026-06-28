@@ -1,18 +1,18 @@
-# Virtual environment
+# Virtual environments
+.venv/
 venv/
 task_1/venv/
 
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+.pytest_cache/
 
-# Mac system file
-.DS_Store
-
-# VS Code settings
+# Editor and system files
+.idea/
 .vscode/
+.DS_Store
+Thumbs.db
 
-# Output files (optional)
+# Task 2 generated output
 task_2/output/

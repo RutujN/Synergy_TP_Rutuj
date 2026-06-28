@@ -1,0 +1,49 @@
+{
+  "total_rows": 10,
+  "columns": [
+    "student_id",
+    "name",
+    "domain",
+    "attendance_percent",
+    "score",
+    "study_hours",
+    "height_cm",
+    "weight_kg",
+    "submitted"
+  ],
+  "data_types": {
+    "student_id": "object",
+    "name": "object",
+    "domain": "object",
+    "attendance_percent": "float64",
+    "score": "float64",
+    "study_hours": "float64",
+    "height_cm": "float64",
+    "weight_kg": "float64",
+    "submitted": "object"
+  },
+  "missing_values": {
+    "student_id": 0,
+    "name": 0,
+    "domain": 0,
+    "attendance_percent": 0,
+    "score": 0,
+    "study_hours": 0,
+    "height_cm": 0,
+    "weight_kg": 0,
+    "submitted": 0
+  },
+  "duplicates": 0,
+  "unique_categorical_values": {
+    "domain": [
+      "ML",
+      "Web",
+      "Electronics",
+      "Mechanical"
+    ],
+    "submitted": [
+      "yes",
+      "no"
+    ]
+  }
+}
